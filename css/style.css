@@ -1,0 +1,180 @@
+/* style of navbar */
+@media (min-width: 992px) { 
+    .navbar{
+       margin-top:0;
+       top:0px;
+     }
+ }
+
+ /* style of top content section */
+ .nav_bar .nav-link{
+     color: white;
+     animation-duration: 2s;
+ }
+ #topContent .r1{
+     padding: 10px 0;
+ }
+
+ #topContent .cl1 .text{
+ }
+ #topContent .cl1 .text .p2{
+     margin-top: -14px;
+ }
+ #topContent .cl2 .fonts{
+     margin-top: 10px;
+ }
+ .cl2 .fonts span{
+     font-size: 25px;
+     margin-right: 25px;
+
+ }
+ .img1{
+     width: 100px;
+ }
+ /* style of header */
+ .carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    position: relative;
+    
+  }
+ .carousel-item .carousel-caption{
+     position: absolute;
+     top: 40%;
+     left: 13%;
+     text-align: left;
+     width: 40%;
+ }
+ .carousel-item .carousel-caption h3{
+     margin-bottom: 15px;
+ }
+ .carousel-item .carousel-caption .btn1{
+padding: 12px;
+background-color: green;
+color: white;
+border: none;
+}
+/* start style of offers section */
+.of_h{
+    color: rgb(102, 102, 102);
+}
+.im_top{
+    width: 92%;
+    text-align: center;
+    margin: auto;
+    margin-top: 7px;
+}
+.r2 .aw span{
+     padding: 5px 10px;
+     width: 20px;
+     height: 20px;
+     border: 1px solid gray;
+     text-align: center;
+     border-radius:5px ;
+     background-color: white;
+     -webkit-border-radius:;
+     -moz-border-radius:;
+     -ms-border-radius:;
+     -o-border-radius:;
+     color: grey;
+}
+.r2 .h_x{
+    font-size: 5px;
+}
+.card{
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 4px 2px gray;
+}
+/* style of destinations section */
+.card_b{
+    box-shadow: none;
+    border: none;
+}
+
+.card_b .h_t{
+    color: rgb(88, 88, 88);
+}
+.card_b .btt{
+    background-color: white;
+    color: green;
+    border: 1px solid green;
+}
+
+.card_b .hvr-shutter-out-horizontal{
+    background-color: white;
+    color: green;
+    border: 1px solid green;
+}
+.card_b .hvr-shutter-out-horizontal:before {
+    background-color: green;
+    color: white;
+    border: 1px solid white;
+}
+.card_b .hvr-shutter-out-horizontal:hover{
+    color: white;
+}
+/* start style of customer section */
+.customers .total .text{
+    width: 100%;
+    background-color: white;
+    box-shadow: 1px 1px 4px 2px gray;
+    padding: 7px;
+    position: relative;
+}
+.customers .total .text::after{
+    content: "";
+    border-width: 11px;
+    border-style: solid;
+    border-color: grey transparent transparent transparent;
+    position: absolute; 
+    top: 100%;
+    left: 4%;     
+}
+
+.total .t1 img{
+    width: 50px;
+    height: 50px;
+    margin-top: 12px;
+}
+.total .in{
+    color: grey;
+    margin-top: 18px;
+    margin-left: 14px;
+}
+.total .stars {
+    color: gold;
+    margin-left: 18px;
+    margin-top: 11px;
+}
+/* style of features of phone section */
+.test .bell{
+    margin-top: 8% ;
+
+}
+.test .bell i{
+    font-size: 20px;
+    color: grey;
+
+}
+/* style of footer sections */
+.foot ul li{
+    margin-bottom: 22px;
+}
+.foot .fbtn{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 5px;
+    margin-bottom: 19px ;
+}
+.under_ft{
+    background-color: rgb(29, 29, 29);
+}
+.under_ft i{
+    margin: 0px 20px 0px 10px;
+    font-size: 20px;
+}
+
+
